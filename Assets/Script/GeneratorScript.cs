@@ -34,6 +34,7 @@ public class GeneratorScript : MonoBehaviour
         GameObject room = Instantiate(availableRooms[randomRoomIndex]);
 
         float roomWidth = room.transform.Find("floor").localScale.x;
+        Debug.Log(roomWidth);
 
         float roomCenter = farthestRoomEndX + roomWidth*0.5f;
 
