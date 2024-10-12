@@ -57,7 +57,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -100,7 +100,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
@@ -112,7 +112,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: iPhone
     maxTextureSize: 2048
@@ -160,12 +160,12 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mouse_run_0
+      name: mouse_sprite_sheet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -179,14 +179,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02305410000000000800000000000000
-      internalID: 21300000
+      spriteID: 1cdd3b517b459714baec2a2c583165f2
+      internalID: 971910208
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mouse_run_1
+      name: mouse_sprite_sheet_1
       rect:
         serializedVersion: 2
         x: 162
@@ -200,14 +200,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22305410000000000800000000000000
-      internalID: 21300002
+      spriteID: 9ff628023cd0426439e16929c473ad59
+      internalID: 135503829
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mouse_run_2
+      name: mouse_sprite_sheet_2
       rect:
         serializedVersion: 2
         x: 324
@@ -221,14 +221,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42305410000000000800000000000000
-      internalID: 21300004
+      spriteID: cebc1916bad09394d90488e795bb3474
+      internalID: 1845536423
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mouse_run_3
+      name: mouse_sprite_sheet_3
       rect:
         serializedVersion: 2
         x: 486
@@ -242,14 +242,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62305410000000000800000000000000
-      internalID: 21300006
+      spriteID: e2432898e25b3aa4da23f54241d66a22
+      internalID: 191582117
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mouse_fly
+      name: mouse_sprite_sheet_4
       rect:
         serializedVersion: 2
         x: 0
@@ -263,14 +263,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 82305410000000000800000000000000
-      internalID: 21300008
+      spriteID: 0e58555150ab74d45a5468ba69ec74f2
+      internalID: -919156830
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mouse_fall
+      name: mouse_sprite_sheet_5
       rect:
         serializedVersion: 2
         x: 162
@@ -284,14 +284,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2305410000000000800000000000000
-      internalID: 21300010
+      spriteID: 119735c89796a744d8bdbea5cdbd4b30
+      internalID: -1087906855
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mouse_die_0
+      name: mouse_sprite_sheet_6
       rect:
         serializedVersion: 2
         x: 324
@@ -305,14 +305,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2305410000000000800000000000000
-      internalID: 21300012
+      spriteID: 2c3cef2b4046ff646a459f350081b8c5
+      internalID: 2084486752
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mouse_die_1
+      name: mouse_sprite_sheet_7
       rect:
         serializedVersion: 2
         x: 486
@@ -326,8 +326,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2305410000000000800000000000000
-      internalID: 21300014
+      spriteID: 112b82404d241064fb1470158cb71ca6
+      internalID: 1396530058
       vertices: []
       indices: 
       edges: []
@@ -335,7 +335,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 69e50defb4519334aa2d9f8b9fceb2c6
     internalID: 0
     vertices: []
     indices: 
@@ -343,14 +343,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      mouse_die_0: 21300012
-      mouse_die_1: 21300014
-      mouse_fall: 21300010
-      mouse_fly: 21300008
-      mouse_run_0: 21300000
-      mouse_run_1: 21300002
-      mouse_run_2: 21300004
-      mouse_run_3: 21300006
+      mouse_sprite_sheet_0: 971910208
+      mouse_sprite_sheet_1: 135503829
+      mouse_sprite_sheet_2: 1845536423
+      mouse_sprite_sheet_3: 191582117
+      mouse_sprite_sheet_4: -919156830
+      mouse_sprite_sheet_5: -1087906855
+      mouse_sprite_sheet_6: 2084486752
+      mouse_sprite_sheet_7: 1396530058
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
